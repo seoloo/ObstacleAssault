@@ -26,4 +26,12 @@ public:
 	UPROPERTY(EditAnywhere) // 아래 정수선언을 블루프린터에 알리기
 	int32 My_Int = 99;
 
+	UPROPERTY(EditAnywhere)
+	int32 My_Int2 = 99;
+
+	UPROPERTY(EditAnywhere)
+	float My_Float = 5.6;
+
+	UPROPERTY(EditAnywhere)
+	bool My_Bool = true;
 };
