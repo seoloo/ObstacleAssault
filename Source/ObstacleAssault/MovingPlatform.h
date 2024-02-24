@@ -23,15 +23,10 @@ public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
-	UPROPERTY(EditAnywhere) // 아래 정수선언을 블루프린터에 알리기
-	int32 My_Int = 99;
+	UPROPERTY(EditAnywhere)
+	FVector MyVector = FVector(1, 2, 3);
 
 	UPROPERTY(EditAnywhere)
-	int32 My_Int2 = 99;
+	float MyX = 0;
 
-	UPROPERTY(EditAnywhere)
-	float My_Float = 5.6;
-
-	UPROPERTY(EditAnywhere)
-	bool My_Bool = true;
 };

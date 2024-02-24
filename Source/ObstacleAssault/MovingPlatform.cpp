@@ -16,6 +16,7 @@ void AMovingPlatform::BeginPlay()
 {
 	Super::BeginPlay();
 	
+	SetActorLocation(FVector(1, 2, 3));
 }
 
 // Called every frame
